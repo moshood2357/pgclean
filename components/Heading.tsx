@@ -22,14 +22,16 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-bold text-[#4CD1FE] flex items-center">
-           <Image
-              src="/bubbles.png"
-              alt="PG Clean Ltd. logo"
-              width={50}
-              height={20}
-              className=""
-            />
-          <Link href="/">PG Clean Ltd.</Link>
+          <Image
+            src="/bubbles.png"
+            alt="PG Clean Ltd. logo"
+            width={50}
+            height={20}
+            className=""
+          />
+          <Link href="/">
+            <h1>PG Clean Ltd.</h1>
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
