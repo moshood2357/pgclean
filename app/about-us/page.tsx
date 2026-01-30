@@ -46,8 +46,8 @@ export default function AboutPage() {
                     Our Story
                   </h3>
                   <p className="text-gray-600 mb-2">
-                    PG Clean has been in the carpet cleaning industry for
-                    over 10 years. We serve homes and offices with the highest
+                    PG Clean has been in the carpet cleaning industry since 2023.
+                    We serve homes and offices with the highest
                     standards of quality and care.
                   </p>
                   <p className="text-gray-600">

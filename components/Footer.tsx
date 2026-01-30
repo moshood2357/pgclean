@@ -5,7 +5,7 @@ import {
   MapPin,
 } from "lucide-react";
 
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 import Link from "next/link";
 
@@ -13,19 +13,20 @@ function Footer() {
   return (
     <div>
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
+      <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-            <div className="lg:col-span-2">
-              <div className="flex items-center mb-6">
-                <Image
-                  src="/canada.png"
+          <Image
+                  src="/bubbles2.png"
                   alt="PG Clean Ltd. logo"
-                  width={120}
-                  height={59}
+                  width={30}
+                  height={30}
                   className=""
                 />
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            <div className="lg:col-span-2">
+              {/* <div className="flex items-center mb-6">
+                
+              </div> */}
               <h3 className="text-2xl font-bold text-[#4CD1FE] mb-4">
                 Reach Out to
               </h3>
@@ -139,7 +140,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   className="bg-gray-800 p-3 rounded-full hover:bg-[#4CD1FE] hover:text-black transition"
                 >
-                  <FaLinkedin size={18} />
+                  <FaTiktok size={18} />
                 </a>
               </div>
 

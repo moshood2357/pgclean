@@ -201,7 +201,7 @@ export default function Contact() {
                   },
                   {
                     icon: MapPin,
-                    title: "Visit Us",
+                    title: "Maps",
                     content:
                       "Princess Elizabeth Way, Cheltenham GL51 7BT, United Kingdom",
                     sub: "Serving the greater metro area",

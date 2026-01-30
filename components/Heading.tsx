@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
@@ -20,7 +21,14 @@ export default function Header() {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-2xl font-bold text-[#4CD1FE]">
+        <div className="text-2xl font-bold text-[#4CD1FE] flex items-center">
+           <Image
+              src="/bubbles.png"
+              alt="PG Clean Ltd. logo"
+              width={50}
+              height={20}
+              className=""
+            />
           <Link href="/">PG Clean Ltd.</Link>
         </div>
 
